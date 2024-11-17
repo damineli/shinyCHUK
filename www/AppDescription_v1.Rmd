@@ -1,0 +1,33 @@
+---
+title: "App Description"
+author: "damineli"
+date: "12/22/2017"
+output: html_document
+---
+# Tip Finding Algorithm
+### TAB 1: Taming CHUKNORRIS (THIS TAB!)
+This is an interactive version of the tip finding algorithm that allows growth and fluorescence series extraction (OUTPUTS) from a kymograph (INPUT). After uploading the data, that MUST comply to the indicated format, you will be able to inspect each step of the analysis and interactively change the parameters if the results are not to your liking. Otherwise just use the automatic settings and follow the tabs as they unlock until tou can save all the data generated in the analysis (both figures and numeric data).
+
+### TAB 2: Data Upload
+Upload your data according to the indicated format and indicate the time step and pixel size.
+
+### TAB 3: Tip Detection
+If the magenta points adequately locate the tip continue with automatic settings choosing "Show Tab 'Smooth Tip Location'". Otherwise choose another tip estimate that performs better or change the smoothing parameters for the kymograph or remaining available parameters (tutotial under construction!).
+
+### TAB 4:  Smooth Tip
+Smooth the tip location estimated and watch the resulting growth velocity series as a control. If the default looks good, choose "Show Tab 'Extract Fluorescence Series'".
+
+
+
+### TAB 5: Extract Fluorescence Series
+Choose additional margin for the tip location, an average width to sample the fluorescence series at the tip and adjust manually if not adequate. If defaults look good, choose "Show Tab 'Filter Kymograph'".
+
+
+
+### TAB 6:  Filter Kymograph
+This takes a while!! Don't worry about it if you don't want filtering, otherwise:
+Filter the single channel kymograph with a 2D wavelet filter that will amplify the selected period range, also bringing distortion on the edges of the series that may need trimming. Perform the desired adjustments and procees to save the data.
+
+### TAB 7: Save and download
+Save and download all data generated here (everything will be in a zip file)
+
